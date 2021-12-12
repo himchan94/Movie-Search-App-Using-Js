@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+/* COMMON */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 21px;
+}
+
+header {
+  width: 100%;
+  background-color: #333333;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+header > .header_wrapper {
+  max-width: 1170px;
+  margin: auto;
+}
+
+header > .header_wrapper > .logo {
+  float: left;
+  height: 45px;
+  font-size: 19px;
+  padding: 12px 15px;
+  margin-left: 15px;
+}
+
+header > .header_wrapper > .header-leftside {
+  float: left;
+  font-size: 13px;
+  font-weight: 300;
+  vertical-align: bottom;
+  margin-left: 40px;
+}
+
+header > .header_wrapper > .header-leftside > li {
+  float: left;
+  padding: 10px 15px;
+}
+
+header > .header_wrapper > .header-leftside > li > a {
+}
+
+header > .header_wrapper > .header-rightside {
+  float: right;
+
+  font-size: 13px;
+  font-weight: 300;
+  margin-right: 15px;
+  vertical-align: bottom;
+}
+
+header > .header_wrapper > .header-rightside > li {
+  float: left;
+  padding: 10px 15px;
+}
+
+header > .header_wrapper > .header-rightside > li > a {
+}
